@@ -13,21 +13,27 @@ public class _07UsandoSwitch {
         switch (notaFinalDigitada){
             case 1:
                 descricaoNota = "Nota muito ruim";
+                break;
             case 2:
                 descricaoNota = "Ruim";
+                break;
             case 3:
                 descricaoNota = "Media";
             case 4:
                 descricaoNota = "Boa";
+                break;
             case 5:
                 descricaoNota = "Nota Máxima";
+                break;
             default:
                 descricaoNota = "Nota não encontrada";
 
 
 
-        }
 
+
+        }
+        System.out.println("Descricao Nota:" +descricaoNota);
         sc.close();
     }
 
