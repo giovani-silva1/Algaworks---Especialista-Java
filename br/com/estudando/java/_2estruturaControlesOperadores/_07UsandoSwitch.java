@@ -20,17 +20,11 @@ public class _07UsandoSwitch {
             case 3:
                 descricaoNota = "Media";
             case 4:
-                descricaoNota = "Boa";
-                break;
             case 5:
                 descricaoNota = "Nota Máxima";
                 break;
             default:
                 descricaoNota = "Nota não encontrada";
-
-
-
-
 
         }
         System.out.println("Descricao Nota:" +descricaoNota);
